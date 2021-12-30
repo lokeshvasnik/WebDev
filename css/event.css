@@ -1,0 +1,295 @@
+
+body{
+    margin: 0;    
+    padding: 0;
+    /* background-image: url('/images/pexels-edward-eyer-667986.jpg')  ,  radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% ) ; */
+    background-color:#ffd8a8;
+    transition: 1s;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* background-color: red; */
+}
+
+
+
+.barname h1{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
+    margin: 4px ;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    display:inline-block;
+    margin: 20px 20px;
+    padding: 2px 2px;
+    list-style: none;
+   
+}
+
+h1{
+    color: gray;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.navbar a:hover{
+    color: gray;
+}
+
+
+
+
+
+/* //This is the conatienr section  */
+
+.container{
+    /* border: 2px solid black; */
+    width: 98.5vw;
+    height: 62vh;
+    background-image: url(/images/64867HH_9482.jpg);
+}
+.primary{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 2rem;
+    margin-top: 34px;
+    background-color: black;
+   
+}
+
+.primary {
+    color: white;
+}
+
+
+
+
+.firstSection{
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+/* //This is the box of events  */
+
+
+.box{
+    margin: 24px;
+    width: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.box img{
+    width: 34rem;
+    border-radius: 12px;
+}
+
+.box2{
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 42rem;
+    height: 22rem;
+}
+
+/* This is another section   */
+#bookme{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 14px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin: 12px;
+  
+}
+
+#bookme:hover{
+    background-color: black;
+    color: white;
+    transition: 0.9s;
+    transition: ease-out(2.0s);
+}
+
+
+
+.containerMain
+{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 14px;
+    width: 98vw;
+}
+
+
+
+.containerMain2
+{
+    display: flex;
+    border: 2px solid black;
+    margin: 14px;
+    flex-direction: row-reverse;
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3{
+    margin: 24px;
+    width: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.box3 img{
+    width: 17rem;
+    height: 25rem;
+    border-radius: 12px;
+    
+}
+
+
+
+.box4{
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 42rem;
+    height: 22rem;
+}
+
+/* **************************************** */
+
+
+.containerMain3
+{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 14px;
+    flex-direction: row-reverse;
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.box5 img{
+    width: 25rem;
+    border-radius: 12px;
+}
+  
+    
+
+.box6{
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    /* border: 2px solid black; */
+    width: 42rem;
+    height: 22rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* utility clas  */
+
+#p-title{
+    font-size:34px;
+}
+
+#p-info{
+    text-align: center;
+
+}
+
+
+
+/* This is the reponsive design for event */
+
+@media only screen and (max-width: 700px) {
+
+    .containerMain{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: skyblue; */
+    }
+
+    .box img {
+        width: 23rem;
+        border-radius: 12px;
+    }
+
+    .box2{
+        width: 21rem;
+        
+    }
+
+    .containerMain2{
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .box4{
+        width: 21rem;
+        
+    }
+
+    .containerMain3{
+        flex-direction: column;
+        /* background-color: rgb(182, 125, 125); */
+    }
+    .box5 img {
+        width: 23rem;
+        border-radius: 12px;
+    }
+    .box6{
+        width: 21rem;
+        
+    }
+   
+}

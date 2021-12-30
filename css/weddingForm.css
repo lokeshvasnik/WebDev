@@ -1,0 +1,25 @@
+
+.container{
+    /* border: 2px solid black; */
+    width: 98.5vw;
+    height: 70vh;
+   
+}
+.primary{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 2rem;
+    margin-top: 34px;
+    background-color: black;
+   
+}
+
+.primary {
+    color: white;
+}
+
+
+

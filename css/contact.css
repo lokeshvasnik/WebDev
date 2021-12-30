@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* background-color: red; */
+}
+
+
+
+.barname h1{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
+    margin: 4px ;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    display:inline-block;
+    margin: 20px 20px;
+    padding: 2px 2px;
+    list-style: none;
+   
+}
+
+h1{
+    color: gray;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.navbar a:hover{
+    color: gray;
+}
+
+
+
+body{
+    margin: 0;    
+    padding: 0;
+    background-image: url('/images/pexels-edward-eyer-667986.jpg')  ;
+}
+
+
+
+
+.container{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    width: 27rem;
+    height: 28rem;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+
+.btn {
+    
+    margin: 10px;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 6px 21px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: 0.9s;
+    cursor: pointer;
+
+}
+
+#email{
+    margin: 10px;
+    width: 249px;
+    border: 2px aliceblue;
+    height: 25px;
+    border-radius: 14px;
+}
+
+#phone{
+    margin: 10px;
+    width: 249px;
+    border: 2px aliceblue;
+    height: 25px;
+    border-radius: 14px;
+}
+input:focus ,form-control {
+    background-color: rgb(255, 250, 250);
+    outline: none;
+    color: gray;
+    margin-left: 2px;
+}
+
+
+#concern{
+    border-radius: 14px;
+}
+
+textarea:focus , #concern{
+    outline:none;
+    /* background-color: #bba598; */
+    border: 0px;
+    color: gray;
+    margin-left: 2px;
+}
+

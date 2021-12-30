@@ -1,0 +1,266 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    /* background-color: #ffffff; */
+}
+
+
+
+
+.navbar{
+
+    /* border: 2px solid black; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* background-color: red; */
+
+}
+
+.navbar ul li {
+    text-decoration: none;
+    display:inline-block;
+    margin: 20px 20px;
+    padding: 2px 2px;
+    list-style: none;
+   
+
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.navbar a:hover{
+    color: gray;
+}
+
+.barname h1{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 5rem;
+    margin: 4px ;
+}
+
+
+
+/* this is all the banner properties  */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* margin: 12px ; */
+    /* width: 99vw; */
+    height: 27rem;
+}
+
+.banner img{
+
+    width: 84rem;
+}
+
+
+
+/* This is the button css 
+z */
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+
+.order{
+    margin: 2px 2px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+
+/* This is the second section */
+
+.second{
+    height: 100vh;
+}
+
+.container{
+    margin-top: 33px;
+    /* border: 2px solid black; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 24rem;
+    height: 23rem;
+    margin: 12px;
+}
+
+.box img{
+    width: 24rem;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 24rem;
+    height: 23rem;
+    margin: 12px;
+
+}
+
+.box1 img{
+    width: 24rem;
+    height: 16rem;
+
+
+}
+
+
+/* This is the third section  */
+
+.third{
+    height: 100vh;
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.container2 p {
+    padding: 12px;    
+}
+
+
+.container3{
+    background-color: #95a5a6;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 33vh;
+    font-style: normal;
+    text-align: center;
+
+}
+
+
+.social1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    height: 200px;
+    width: 19rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+/* This is the contact css */
+
+#contactPicture{
+    width: 200px;
+}    
+
+
+/* this is the utility classez  */
+.primary{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 2rem;
+    margin-top: 34px;
+    background-color: black;
+   
+}
+
+.primary {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+   
+
+    .barname h1{
+        font-size: 4rem;
+    }
+
+
+    .container{
+        margin-top: 7rem;
+        flex-direction: column;
+    }
+
+    .third{
+        margin-top: 8rem;
+    }
+
+    .container3{
+        margin-top: 3rem;
+    }
+
+    .social1{
+        font-size: 13px;
+    }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
